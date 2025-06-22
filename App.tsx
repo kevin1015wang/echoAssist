@@ -521,7 +521,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 selection:bg-sky-200">
       <div className="w-full max-w-2xl bg-white shadow-2xl rounded-lg overflow-hidden">
-        <Disclaimer appName="Call Center Training Simulator" emergencyNotice={false} />
+        <Disclaimer appName="echoRep" emergencyNotice={false} />
         <div className="p-0 flex flex-col" style={{height: 'calc(100vh - 100px)', minHeight: '550px', maxHeight: '800px'}}>
           {renderContent()}
         </div>
