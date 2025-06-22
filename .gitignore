@@ -1,0 +1,35 @@
+# Node.js dependencies
+/node_modules/
+/dist/
+/build/
+
+# dotenv files
+# Local .env files should generally not be committed to a shared repository
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code (if you have user-specific settings you don't want to share)
+*.iml              # IntelliJ IDEA
+*.swp              # Vim swap files
+.DS_Store          # macOS specific files
+Thumbs.db          # Windows specific files
+
+# Testing/Coverage
+/coverage/
+
+# Misc
+.cache/
+*.tsbuildinfo      # TypeScript build info file
+.env.development.local
+.env.test.local
+.env.production.local
