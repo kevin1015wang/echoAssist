@@ -11,8 +11,8 @@ import { FeedbackDisplay } from './components/FeedbackDisplay';
 import { GEMINI_MODEL_NAME, SCENARIOS, getAICallerSystemInstruction, AI_CALLER_NAME_OPTIONS, AI_ORDER_NUMBER_PREFIX } from './constants';
 import { initializeChatWithSystemInstruction, sendMessageToAI } from './services/geminiService';
 
-// --- Start of Web Speech API Type Definitions (remains the same) ---
-interface SpeechRecognitionResultList {
+// --- Start of Web Speech API Type Definitions (remains the same s ) ---
+interface SpeechRecognitionResultList { 
   readonly length: number;
   item(index: number): SpeechRecognitionResult;
   [index: number]: SpeechRecognitionResult;
