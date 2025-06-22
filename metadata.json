@@ -1,0 +1,7 @@
+{
+  "name": "Call Center Representative Training with AI",
+  "description": "An AI-powered application to help users practice call center representative skills. Users interact with an AI 'caller' (Gemini) in various scenarios and receive feedback on their performance. Voice input and output are supported.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
